@@ -420,16 +420,20 @@ nav a {
     header {
         display: flex;
         justify-content: start;
+        padding: 0;
     }
 
     .menu-mobile {
         display: block;
-        background: transparent;
-        border: none;
+        background-color: rgba(7, 35, 63, 0.398);
+        border: solid 1px ;
+        border-radius: 10px;
         font-size: 35px;
         color: white;
         position: fixed;
-        top: 0;
+        top: 5px;
+        left: 10px;
+        padding: 5px 13px;
     }
 
     nav {
