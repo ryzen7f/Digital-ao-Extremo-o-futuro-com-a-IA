@@ -4,10 +4,17 @@ html {
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html,
 body {
     margin: 0;
     padding: 0;
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -32,7 +39,6 @@ header {
 .barra_de_pesquisa {
     display: flex;
     align-items: center;
-    width: 30%;
 }
 
 .bi-search {
@@ -88,7 +94,6 @@ nav a {
 
 
 .inicio {
-    border: solid 1px;
     height: 105vh;
     margin: 0;
     background-image: url(inicio.png);
@@ -119,7 +124,6 @@ nav a {
 
 
 .invençoes {
-    border: solid 1px;
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -163,7 +167,6 @@ nav a {
 .sessao1 {
     min-height: 100vh;
     margin: 0;
-    border: solid 1px;
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -177,7 +180,6 @@ nav a {
 .sessao2 {
     min-height: 100vh;
     margin: 0;
-    border: solid 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -191,7 +193,6 @@ nav a {
 .sessao3 {
     min-height: 100vh;
     margin: 0;
-    border: solid 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -204,7 +205,6 @@ nav a {
 .sessao4 {
     min-height: 100vh;
     margin: 0;
-    border: solid 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -218,7 +218,6 @@ nav a {
 .sessao5 {
     min-height: 100vh;
     margin: 0;
-    border: solid 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -232,7 +231,6 @@ nav a {
 .sessao6 {
     min-height: 100vh;
     margin: 0;
-    border: solid 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -246,7 +244,6 @@ nav a {
 .sessao7 {
     min-height: 100vh;
     margin: 0;
-    border: solid 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -282,7 +279,6 @@ nav a {
 .sessao8 {
     min-height: 100vh;
     margin: 0;
-    border: solid 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -343,7 +339,6 @@ nav a {
 
 
 .nossocurso {
-    border: solid 1px;
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -386,7 +381,6 @@ nav a {
 
 
 .sobrenos {
-    border: solid 1px;
     min-height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -401,8 +395,8 @@ nav a {
     font-size: 50px;
     font-weight: bold;
     margin: 0;
-    margin-top: 5%;
-    margin-left: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 .sobrenos p {
@@ -411,7 +405,7 @@ nav a {
 }
 
 
-@media (max-width: 680px) {
+@media (max-width: 1000px) {
     html {
         padding: 0;
         margin: 0;
@@ -425,8 +419,8 @@ nav a {
 
     .menu-mobile {
         display: block;
-        background-color: rgba(7, 35, 63, 0.398);
-        border: solid 1px ;
+        background-color: rgba(7, 35, 63, 0.86);
+        border: solid 1px;
         border-radius: 10px;
         font-size: 35px;
         color: white;
