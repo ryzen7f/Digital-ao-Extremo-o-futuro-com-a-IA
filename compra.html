@@ -52,7 +52,19 @@
             width: 37%;
             background-color: rgba(227, 234, 233, 0.925);
             border-radius: 10px;
+             animation: aparecer 0.8s ease;
         }
+        @keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
         form label {
             text-align: start;
@@ -65,6 +77,11 @@
             height: 4%;
             width: 85%;
         }
+        form input:focus {
+    border-color: rgb(70, 130, 255);
+    box-shadow: 0 0 5px rgba(70, 130, 255, 0.5);
+    outline: none;
+}
 
         form p {
             text-align: start;
@@ -80,6 +97,10 @@
             border-radius: 25px;
             cursor: pointer;
         }
+        .confirmar:hover {
+    background-color: rgb(75, 220, 35);
+    transform: scale(1.02);
+}
 
         @media (max-width: 1000px) {
             .compra {
