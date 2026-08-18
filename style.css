@@ -135,32 +135,28 @@ nav a {
     width: 100%;
 }
 
-.invençoes h1 {
+
+.invençoes > a {
     color: #E8B15C;
     background: linear-gradient(90deg,
-            #6B3D00,
-            #3B2100,
-            #000000);
-    background: linear-gradient(90deg,
-            #6B3D00,
-            #3B2100,
-            #000000);
+        #6B3D00,
+        #3B2100,
+        #000000);
     width: 60%;
-    height: 25%;
+    min-height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
+    font-size: clamp(35px, 5vw, 70px);
     border: 10px solid #000;
-    padding: 30px 0;
-    cursor: pointer;
-}
-
-.invençoes a {
+    padding: 30px;
     text-decoration: none;
-    color: #E8B15C;
+    cursor: pointer;
+    text-align: center;
+   
 }
 
 
@@ -488,8 +484,13 @@ nav a {
         margin: 0;
     }
 
-    .invençoes h1 {
-        font-size: 41px;
+    .invençoes > a {
+        .invençoes > a {
+    width: 80%;
+    min-height: 160px;
+    font-size: 41px;
+    padding: 20px;
+}
     }
 
     .sessao1 {
