@@ -16,6 +16,17 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    will-change: opacity, transform;
+}
+
+.reveal.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 header {
     position: fixed;
@@ -35,6 +46,10 @@ header {
 .menu-mobile {
     display: none;
 }
+.menu-mobile:active {
+    transform: scale(1.08);
+    background-color: rgba(7, 35, 63, 1);
+}
 
 .barra_de_pesquisa {
     display: flex;
@@ -46,6 +61,10 @@ header {
     cursor: pointer;
     color: black;
     text-decoration: none;
+}
+.bi-search:focus {
+    color: blue;
+    transform: scale(1.15);
 }
 
 .barra_de_pesquisa input {
@@ -68,6 +87,7 @@ header {
 
 #limpar:hover {
     color: red;
+    transform: scale(1.15);
 }
 
 nav {
@@ -91,7 +111,9 @@ nav a {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+nav a:hover {
+    transform: translateY(-4px);
+}
 
 .inicio {
     height: 105vh;
@@ -156,7 +178,26 @@ nav a {
     text-decoration: none;
     cursor: pointer;
     text-align: center;
-   
+    transition: background-color 0.3s ease;
+}
+.invençoes > a:hover {
+    transform: scale(1.03);
+    background: linear-gradient(90deg,
+        #805000,
+        #4d2c00,
+        #151515);
+}
+
+nav a {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+nav a:hover {
+    transform: translateY(-3px);
+     background: linear-gradient(90deg,
+        #9d7500,
+        #b8860b,
+        #c99a20);
 }
 
 
@@ -271,6 +312,10 @@ nav a {
     align-items: center;
     padding: 2% 10%;
 }
+.sessao7-text-buttom a:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(90deg, #506dd8, #f5b5ec);
+}
 
 .sessao8 {
     min-height: 100vh;
@@ -373,6 +418,10 @@ nav a {
     text-decoration: none;
     font-size: clamp(35px, 7vw, 50px);
     border: solid 5px rgb(19, 19, 137);
+}
+.curso-img-buttom a:hover {
+    transform: translateY(-5px);
+    background-color: rgb(8, 115, 195);
 }
 
 
