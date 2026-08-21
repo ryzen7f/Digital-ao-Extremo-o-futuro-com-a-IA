@@ -16,5 +16,8 @@ Segunda feira Dia 10/08/2026 22:00-4:00 Finalizei a versão mobile é PC aprendi
 Dia 11/08/2026 as 19:00 horas:
 Hoje retirei a página de compra do site principal e criei um site só para esta sessão para que quando o usuário decidir que quer o nosso curso ir para esta sessão e depois  revisei o site para verificar se estava tudo certo
 
-Dia 13/08/2026-
-Hoje concertei o nome "confirmar" do botão no formulário de compra removi as formas de pagamento ajustei a visualização no modo "para computador" que tava dando zoom oucolocando os itens pro lado fazendo ficar com uma borda branca ou os itens ficarem bagunçadosso ajustando o body o html e o @media mudando o número de pixels para 1.000 e por último adicionei espaçamentos dos textos entre o canto da tela usando o padding
+Dia 13/08/2026- Hoje concertei o nome "confirmar" do botão no formulário de compra removi as formas de pagamento ajustei a visualização no modo "para computador" que tava dando zoom oucolocando os itens pro lado fazendo ficar com uma borda branca ou os itens ficarem bagunçadosso ajustando o body o html e o @media mudando o número de pixels para 1.000 e por último adicionei espaçamentos dos textos entre o canto da tela usando o padding
+
+Dia 18/08/2026 após me recuperer um pouco de estar doente adicionei as animações usando javascrip que comforme você desce a pagina o java script muda a classe do "reveal" para ativo que tem a função de aumentar a opacidade dos itens fazendo eles aparecerem e subirem para seu local de origem na pagina.
+
+Dia 21/08/2026- adicione um botão com ícone de olho que com o javascript quando você clica no botão ele altera o input do local onde você coloca senha para "text" assim permitindo você ver sua senha e depois quando você clicar no botão novamente  input da senha voltara a ser "password" deixando a senha cheia de pontinhos novamente
